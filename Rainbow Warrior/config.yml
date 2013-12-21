@@ -1,0 +1,19 @@
+# Rainbow Warrior Config
+
+# If set to true, will enable the plugin, while setting it to false will disable the plugin.
+enablePlugin: true
+
+# Update rate - the amount of ticks to wait before changing the color of the armor.
+# 1 second is 20 ticks.
+# Must be an integer! Otherwise can and will cause errors.
+updateRate: 4
+
+# If set to true, will require rainbowwarrior.rainbowme permissions for /rainbowme
+# and rainbowwarrior.rainbow for /rainbowother PlayerName.
+# If set to false, permissions won't be used.
+usePermissions: true
+
+# !ATTENTION! Even if this is set to false, permission
+# rainbow.reload will still be required to reload
+# plugin's config.yml without reloading the server
+# (Usage: /rainbow reload)
