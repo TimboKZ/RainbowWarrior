@@ -3,23 +3,6 @@ main: kz.kuzhagaliyev.TimboKZ.RainbowWarrior.RainbowWarrior
 version: 0.2
 
 commands:
-   rainbowme:
-      description: Make youself a Rainbow Warrior!.
-      usage: /rainbowme
-      permission: rainbowwarrior.me
-      permission-message: You are not yet powerful enough to become a rainbow warrior.
-   rainbowother:
-      description: Make someone else a Rainbow Warrior!.
-      usage: /rainbowother {Player}
-      permission: rainbowwarrior.other
-      permission-message: You are not yet powerful enough to create a rainbow warriors.
-   rainbowreload:
-      description: Reload Rainbow Warrior's config.
-      usage: /rainbowreload
-      permission: rainbowwarrior.reload
-      permission-message: You are not allowed to reload Rainbow Warrior.
-   rainbowhelp:
-      description: Access Rainbow Warrior's help section.
-      usage: /rainbowhelp
-      permission: rainbowwarrior.help
-      permission-message: You are not allowed to access the help section.
+   rainbow:
+      description: Default Rainbow Warrior command.
+      usage: /rainbow
